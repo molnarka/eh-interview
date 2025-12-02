@@ -1,4 +1,4 @@
-## Take-Home Test: QA Automation on `angular-advanced-sample`
+
 
 ### Overview
 
