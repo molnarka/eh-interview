@@ -39,6 +39,9 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/allure-results
+/playwright-report
+/test-results
 
 # e2e
 /e2e/*.js

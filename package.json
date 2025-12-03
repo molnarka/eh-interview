@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npx nx run angular-advanced-sample:serve:development --host=0.0.0.0 -o"
+    "start": "npx nx run angular-advanced-sample:serve:development --host=0.0.0.0 -o",
+    "test-e2e": "npx playwright test tests/e2e/test-scripts/user-actions.spec.ts --headed"
   },
   "private": true,
   "dependencies": {
@@ -47,7 +48,7 @@
     "@nx/js": "19.3.1",
     "@nx/playwright": "19.3.0",
     "@nx/workspace": "19.3.0",
-    "@playwright/test": "^1.36.0",
+    "@playwright/test": "^1.57.0",
     "@schematics/angular": "~18.0.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
@@ -57,6 +58,7 @@
     "@typescript-eslint/eslint-plugin": "^7.3.0",
     "@typescript-eslint/parser": "^7.3.0",
     "@typescript-eslint/utils": "^8.0.0",
+    "allure-playwright": "^3.4.2",
     "autoprefixer": "^10.4.0",
     "eslint": "~8.57.0",
     "eslint-config-prettier": "^9.0.0",
