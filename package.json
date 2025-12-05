@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "npx nx run angular-advanced-sample:serve:development --host=0.0.0.0 -o",
-    "test-e2e": "npx playwright test tests/e2e/test-scripts/user-actions.spec.ts --headed"
+    "test-e2e": "npx playwright test --headed",
+    "test-e2e-facade": "npx playwright test tests/e2e/test-scripts/facade.spec.ts --headed",
+    "test-e2e-signal": "npx playwright test tests/e2e/test-scripts/signal.spec.ts --headed"
   },
   "private": true,
   "dependencies": {

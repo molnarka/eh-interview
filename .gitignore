@@ -39,7 +39,9 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+/.allure
 /allure-results
+/allure-report
 /playwright-report
 /test-results
 
