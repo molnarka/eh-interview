@@ -23,6 +23,7 @@ jobs:
     - name: Start Dev Container and run Playwright tests
       uses: devcontainers/ci@v0.3
       with:
+      push: never
         runCmd: |
           npm install --include=dev
           npx playwright install --with-deps
