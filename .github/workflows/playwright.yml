@@ -71,3 +71,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Add report URL to summary
+        run: echo "GitHub Pages URL: ${{ steps.deploy.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
