@@ -6,7 +6,7 @@
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {}
   },
-  "workspaceFolder": "/workspaces/angular-advanced-sample",
+  "workspaceFolder": "/workspaces/eh-interview",
   "customizations": {
     "vscode": {
       "extensions": [
