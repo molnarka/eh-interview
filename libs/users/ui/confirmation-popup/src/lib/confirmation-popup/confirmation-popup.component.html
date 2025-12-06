@@ -1,0 +1,18 @@
+<div class='flexContainer mainContainer'>
+  <div class='confirmationTitleContainer'>
+    Are you sure you want to delete
+    <b>{{ user()?.firstName }} {{ user()?.lastName }}</b>?
+  </div>
+  <div class='flexContainer buttonContainer'>
+    <lib-button
+      [isDeleteButton]=false
+      [buttonLabel]="'Cancel'"
+      (clicked)='buttonClicked(false)'
+    ></lib-button>
+    <lib-button
+      [isDeleteButton]=true
+      [buttonLabel]="'DELETE'"
+      (clicked)='buttonClicked(true)'
+    ></lib-button>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.mainContainer {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.button-container {
+  margin-left: auto;
+  padding-left: 15px;
+}

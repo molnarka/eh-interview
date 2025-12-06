@@ -1,0 +1,23 @@
+<h1>Counter with signals</h1>
+<div>
+  <h2>{{ counter() }}</h2>
+  <h2>{{ doubleCounter() }}</h2>
+  <h2>{{ computedString() }}</h2>
+  <button (click)='increment()'>Increment</button>
+  <button (click)='decrement()'>Decrement</button>
+  <button (click)='reset()'>RESET</button>
+</div>
+
+<hr>
+
+<div>
+  <h1>Todo app with signals</h1>
+  <button (click)='addNewTodo()'>Add new todo</button>
+  <div *ngFor="let todo of todos()">
+    <h2>Title: </h2> {{ todo.title }}
+    <h2>Created at: </h2> {{ todo.created }}
+    <h2>{{ todo.isCompleted ? 'Completed' : 'In progress' }}</h2>
+    <button (click)='toggleTodoState(todo.id)'>Toggle state</button>
+    <button (click)='removeTodo(todo.id)'>Remove todo</button>
+  </div>
+</div>

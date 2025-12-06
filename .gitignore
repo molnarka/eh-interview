@@ -1,0 +1,82 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/.allure
+/allure-results
+/allure-report
+/playwright-report
+/test-results
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+e2e-tests/Fusion.rxsln.pref
+e2e-tests/Fusion_Backup_*
+e2e-tests/Fusion_UpgradeResults*
+e2e-tests/Fusion/Fusion.csproj.rxuser
+e2e-tests/Fusion/bin/*
+e2e-tests/Fusion/obj/*
+e2e-tests/Fusion/Reports/*
+e2e-tests/Fusion/Fusion.csproj.pref
+
+# Special Purpose Files
+standalone.txt
+
+debug.log
+clineck
+
+# Unity Binaries to be generated from installer
+/apps/trinity/src/assets/unity/*
+
+.angular
+clicpr
+clipub
+
+# NX libs
+/.nx-cache
+/.nx
+
+# Dev container
+.env

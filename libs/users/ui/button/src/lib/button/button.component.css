@@ -1,0 +1,37 @@
+.button {
+  border: 1px solid black;
+  color: black; /* White text */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  user-select: none;
+  width: 65px;
+}
+
+.button:hover {
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.button:active {
+  transform: scale(0.95); /* Slightly smaller on click */
+}
+
+.delete-button {
+  background-color: #ff4d4d; /* Red background */
+  color: white;
+  border: none; /* No border */
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.delete-button:active {
+  background-color: #e60000; /* Even darker red on click */
+}

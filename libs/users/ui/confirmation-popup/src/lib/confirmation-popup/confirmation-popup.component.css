@@ -1,0 +1,16 @@
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  flex-direction: column;
+  padding: 25px;
+}
+
+.buttonContainer {
+  flex-direction: row;
+  margin-top: 20px;
+}

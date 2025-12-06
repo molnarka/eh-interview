@@ -1,0 +1,35 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-advanced-sample/dummy/data-access": ["libs/dummy/data-access/src/index.ts"],
+      "@angular-advanced-sample/dummy/feature": ["libs/dummy/feature/src/index.ts"],
+      "@angular-advanced-sample/dummy/model": ["libs/dummy/model/src/index.ts"],
+      "@angular-advanced-sample/dummy/ui": ["libs/dummy/ui/src/index.ts"],
+      "@angular-advanced-sample/page-not-found": ["libs/page-not-found/src/index.ts"],
+      "@angular-advanced-sample/users-data-access": ["libs/users/data-access/src/index.ts"],
+      "@angular-advanced-sample/users/feature": ["libs/users/feature/src/index.ts"],
+      "@angular-advanced-sample/users/models": ["libs/users/models/src/index.ts"],
+      "@angular-advanced-sample/users/state": ["libs/users/state/src/index.ts"],
+      "@angular-advanced-sample/users/store": ["libs/users/store/src/index.ts"],
+      "@angular-advanced-sample/users/ui/button": ["libs/users/ui/button/src/index.ts"],
+      "@angular-advanced-sample/users/ui/confirmation-popup": ["libs/users/ui/confirmation-popup/src/index.ts"],
+      "@angular-advanced-sample/users/ui/user-card": ["libs/users/ui/user-card/src/index.ts"],
+      "@angular-advanced-sample/users/ui/user-details": ["libs/users/ui/user-details/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
